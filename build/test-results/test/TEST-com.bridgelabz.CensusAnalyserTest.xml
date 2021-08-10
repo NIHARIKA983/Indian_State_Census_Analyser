@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.CensusAnalyserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-10T13:26:26" hostname="NIHARIKA" time="0.214">
+<testsuite name="com.bridgelabz.CensusAnalyserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-08-10T13:45:08" hostname="NIHARIKA" time="0.085">
   <properties/>
-  <testcase name="givenIndianCensusCSVFileReturnsCorrectRecords" classname="com.bridgelabz.CensusAnalyserTest" time="0.056"/>
-  <testcase name="givenWrongFilePthThrowCustomException" classname="com.bridgelabz.CensusAnalyserTest" time="0.15"/>
-  <testcase name="givenIndiaCensusData_WhenDelimiterIncorrect_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.001"/>
+  <testcase name="givenIndianCensusCSVFileReturnsCorrectRecords" classname="com.bridgelabz.CensusAnalyserTest" time="0.021"/>
+  <testcase name="givenIndiaStateCode_WhenWrongType_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.046"/>
+  <testcase name="givenIndianStateCodeCSVFileReturnsCorrectRecords" classname="com.bridgelabz.CensusAnalyserTest" time="0.0"/>
+  <testcase name="givenWrongFilePthThrowCustomException" classname="com.bridgelabz.CensusAnalyserTest" time="0.01"/>
+  <testcase name="givenIndiaCensusData_WhenDelimiterIncorrect_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.0"/>
   <testcase name="givenIndiaCensusData_WhenWrongType_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.0"/>
   <system-out><![CDATA[NOT_A_CSV_TYPE_OR_HEADERS_INVALID
 ]]></system-out>
